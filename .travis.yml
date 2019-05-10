@@ -1,0 +1,4 @@
+os: osx
+osx_image: xcode10.1
+language: swift
+script: xcodebuild clean build test -project FeedStoreChallenge.xcodeproj -scheme "FeedStoreChallenge" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
